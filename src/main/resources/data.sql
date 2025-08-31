@@ -1,7 +1,27 @@
-
 INSERT INTO test.product_table
 (price, quantity, sku, title_x)
-VALUES(12.4, 4, 'parle1734', 'parlebiscuit'),
+VALUES
+(12.4, 4, 'parle1734', 'parlebiscuit'),
 (12.4, 1, 'pepsi123', 'pepsi'),
 (32.4, 1, 'coka123', 'coka'),
-(16.4, 3, 'pepsi321', 'Mazza');
+(16.4, 3, 'pepsi321', 'Mazza'),
+(25.5, 2, 'kitkat567', 'KitKat'),
+(10.0, 5, 'lays111', 'Lays Chips'),
+(18.9, 3, 'sprite222', 'Sprite'),
+(45.0, 1, 'dairymilk789', 'Dairy Milk'),
+(30.0, 2, 'oreo555', 'Oreo Biscuit'),
+(20.5, 6, 'fanta444', 'Fanta'),
+(55.0, 1, 'redbull333', 'Red Bull'),
+(40.0, 2, 'bournvita888', 'Bournvita'),
+(15.5, 4, 'kurkure999', 'Kurkure'),
+(60.0, 1, 'nutella777', 'Nutella'),
+(28.0, 3, 'chips321', 'Uncle Chips'),
+(35.0, 2, 'thumsup654', 'Thums Up'),
+(42.5, 1, 'monster852', 'Monster Energy'),
+(12.0, 5, 'mariegold963', 'Marie Gold'),
+(65.0, 1, 'nescafe741', 'Nescafe'),
+(22.0, 4, 'perk159', 'Perk'),
+(18.0, 3, 'fiveStar753', '5 Star'),
+(70.0, 1, 'tropicana369', 'Tropicana Juice'),
+(50.0, 2, 'snickers951', 'Snickers'),
+(27.0, 3, 'boost258', 'Boost');

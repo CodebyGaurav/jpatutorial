@@ -39,7 +39,7 @@ class JpatuttorialApplicationTests {
 //        List<ProductEntity> entityList = productRespository.findByCreatedAtAfter(LocalDateTime.of(2024,1,1,0,0,0));
 
 //        List<ProductEntity> entityList = productRespository.findByQuantityAndPrice(4, BigDecimal.valueOf(123.32));
-        List<ProductEntity> entityList = productRespository.findByTitleContainingIgnoreCase("pepsi");
+        List<ProductEntity> entityList = productRespository.findByTitleContainingIgnoreCase("pepsi", null);
         System.out.println(entityList);
     }
 
